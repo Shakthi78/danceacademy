@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inputForm #contact{
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgb(70, 66, 66);
+    margin: 12px 0;
+}
+.inputForm{
+    min-height: 560px;
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4px auto;
+}
+.inputForm form input{
+    padding: 18px 45px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.inputForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    width: 32%;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+}
